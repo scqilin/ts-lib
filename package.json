@@ -1,0 +1,24 @@
+{
+  "name": "@scqilin/my-ts-lib",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/my-ts-lib.js",
+  "types": "dist/my-ts-lib.d.ts",
+  "keywords": [
+    "vite",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --config vite.config.ts",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "vite-plugin-dts": "^3.5.2"
+  }
+}
