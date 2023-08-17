@@ -4,7 +4,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: 'src/main.ts',
-            name: 'my-ts-lib',
+            name: 'vite-ts-lib'
         },
     },
     plugins: [dts()],

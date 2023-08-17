@@ -1,10 +1,10 @@
 {
-  "name": "@scqilin/my-ts-lib",
-  "private": true,
-  "version": "0.0.1",
+  "name": "@scqilin/vite-ts-lib",
+  "private": false,
+  "version": "0.0.2",
   "type": "module",
-  "main": "dist/my-ts-lib.js",
-  "types": "dist/my-ts-lib.d.ts",
+  "main": "dist/vite-ts-lib.js",
+  "types": "dist/main.d.ts",
   "keywords": [
     "vite",
     "typescript"
@@ -19,6 +19,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "@scqilin/vite-ts-lib": "^0.0.2",
     "vite-plugin-dts": "^3.5.2"
   }
 }
